@@ -58,8 +58,12 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 |`* * *` |user |add a new person |
 |`* * *` |user |delete a person |remove entries that I no longer need
 |`* * *` |user |find a person by name |locate details of persons without having to go through the entire list
+|`* * *` |user |edit person's details | edit the details of a person without deleting then adding the updated person's details.
 |`* *` |user |hide <<private-contact-detail, private contact details>> by default |minimize chance of someone else seeing them by accident
+|`* *` |user with many persons in the address book |find persons base on their tags |able to easily know which group of friends the person is in
+|`* *` |careless user |undo/redo the changes made by user |so that user can easily undo/redo undesirable changes
 |`*` |user with many persons in the address book |sort persons by name |locate a person easily
+|`*` |paranoid user |secure the address book with a password |unauthorized people will not be able to access the address book
 |===========================================================================================================================================
 
 [appendix]
