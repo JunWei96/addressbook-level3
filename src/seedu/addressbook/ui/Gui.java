@@ -8,6 +8,7 @@ import seedu.addressbook.Main;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 /**
  * The GUI of the App
@@ -40,7 +41,7 @@ public class Gui {
         /* Note: When calling getResource(), use '/', instead of File.separator or '\\'
          * More info: http://docs.oracle.com/javase/8/docs/technotes/guides/lang/resources.html#res_name_context
          */
-        loader.setLocation(Main.class.getResource("ui/mainwindow.fxml"));
+        loader.setLocation((new File("src/seedu/addressbook/ui/mainwindow.fxml")).toURI().toURL());
 
         stage.setTitle(version);
         stage.setScene(new Scene(loader.load(), INITIAL_WINDOW_WIDTH, INITIAL_WINDOW_HEIGHT));
